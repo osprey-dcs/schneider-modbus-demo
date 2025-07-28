@@ -1,0 +1,60 @@
+file "analog_in.template" {
+{P="\$(P)", N="Ain0-Sts",  BASE="400163", OFFSET="0", ASLO="1"}
+{P="\$(P)", N="Ain1-Sts",  BASE="400163", OFFSET="2", ASLO="1"}
+{P="\$(P)", N="Ain2-Sts",  BASE="400163", OFFSET="4", ASLO="1"}
+{P="\$(P)", N="Ain3-Sts",  BASE="400163", OFFSET="6", ASLO="1"}
+{P="\$(P)", N="Ain4-Sts",  BASE="400163", OFFSET="8", ASLO="1"}
+{P="\$(P)", N="Ain5-Sts",  BASE="400163", OFFSET="10", ASLO="1"}
+{P="\$(P)", N="Ain6-Sts",  BASE="400163", OFFSET="12", ASLO="1"}
+{P="\$(P)", N="Ain7-Sts",  BASE="400163", OFFSET="14", ASLO="1"}
+{P="\$(P)", N="Ain8-Sts",  BASE="400163", OFFSET="16", ASLO="1"}
+{P="\$(P)", N="Ain9-Sts",  BASE="400163", OFFSET="18", ASLO="1"}
+{P="\$(P)", N="Ain10-Sts", BASE="400163", OFFSET="20", ASLO="1"}
+{P="\$(P)", N="Ain11-Sts", BASE="400163", OFFSET="22", ASLO="1"}
+{P="\$(P)", N="Ain12-Sts", BASE="400163", OFFSET="24", ASLO="1"}
+{P="\$(P)", N="Ain13-Sts", BASE="400163", OFFSET="26", ASLO="1"}
+{P="\$(P)", N="Ain14-Sts", BASE="400163", OFFSET="28", ASLO="1"}
+{P="\$(P)", N="Ain15-Sts", BASE="400163", OFFSET="30", ASLO="1"}
+}
+
+file "binary_in.template" {
+{P="\$(P)", N="DI0-Sts",  BASE="179", OFFSET="0",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI1-Sts",  BASE="179", OFFSET="1",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI2-Sts",  BASE="179", OFFSET="2",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI3-Sts",  BASE="179", OFFSET="3",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI4-Sts",  BASE="179", OFFSET="4",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI5-Sts",  BASE="179", OFFSET="5",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI6-Sts",  BASE="179", OFFSET="6",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI7-Sts",  BASE="179", OFFSET="7",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI8-Sts",  BASE="179", OFFSET="8",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI9-Sts",  BASE="179", OFFSET="9",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI10-Sts", BASE="179", OFFSET="10", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI11-Sts", BASE="179", OFFSET="11", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI12-Sts", BASE="179", OFFSET="12", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI13-Sts", BASE="179", OFFSET="13", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI14-Sts", BASE="179", OFFSET="14", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DI15-Sts", BASE="179", OFFSET="15", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+}
+
+file "binary_out.template" {
+{P="\$(P)", N="DO0-Cmd",  BASE="163", OFFSET="0",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO1-Cmd",  BASE="163", OFFSET="1",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO2-Cmd",  BASE="163", OFFSET="2",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO3-Cmd",  BASE="163", OFFSET="3",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO4-Cmd",  BASE="163", OFFSET="4",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO5-Cmd",  BASE="163", OFFSET="5",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO6-Cmd",  BASE="163", OFFSET="6",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO7-Cmd",  BASE="163", OFFSET="7",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO8-Cmd",  BASE="163", OFFSET="8",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO9-Cmd",  BASE="163", OFFSET="9",  MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO10-Cmd", BASE="163", OFFSET="10", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO11-Cmd", BASE="163", OFFSET="11", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO12-Cmd", BASE="163", OFFSET="12", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO13-Cmd", BASE="163", OFFSET="13", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO14-Cmd", BASE="163", OFFSET="14", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+{P="\$(P)", N="DO15-Cmd", BASE="163", OFFSET="15", MASK="0x00", ZNAM="Off", ONAM="On", OSV=""}
+}
+
+file "on_connect.template" {
+{P="\$(P)", PORT="DEV"}
+}

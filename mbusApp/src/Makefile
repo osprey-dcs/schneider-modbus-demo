@@ -22,10 +22,12 @@ mbus_DBD += base.dbd
 # Include dbd files from all support applications:
 mbus_DBD += modbusSupport.dbd
 mbus_DBD += asyn.dbd drvAsynIPPort.dbd
+mbus_DBD += reccaster.dbd
 
 # Add all the support libraries needed by this IOC
 mbus_LIBS += asyn
 mbus_LIBS += modbus
+mbus_LIBS += reccaster
 
 # mbus_registerRecordDeviceDriver.cpp derives from mbus.dbd
 mbus_SRCS += mbus_registerRecordDeviceDriver.cpp

@@ -37,6 +37,6 @@ drvModbusAsynConfigure("DEV_R_163",    "DEV", 0, 5,    162, 16, 0, $(DEVICE_POLL
 drvModbusAsynConfigure("DEV_R_179",    "DEV", 0, 1,    178, 16, 0, $(DEVICE_POLL))
 drvModbusAsynConfigure("DEV_R_400163", "DEV", 0, 3,    162, 32, "FLOAT32_LE", $(DEVICE_POLL))
 
-dbLoadRecords("modbus-server.db", "PORT=DEV_HR,P=TST:")
+dbLoadRecords("modbus-server.db", "PORT=DEV_HR,P=MDAS:PLCTST:")
 
 iocInit()

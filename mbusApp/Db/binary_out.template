@@ -6,4 +6,5 @@ record(bo, "$(P)$(N)") {
     field(ONAM, "$(ONAM=One)")
     field(ZSV , "$(ZSV=)")
     field(OSV , "$(OSV=)")
+    field(PINI, "YES")
 }

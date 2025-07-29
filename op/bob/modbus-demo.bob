@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-07-29 07:53:55 by atf-->
+<display version="2.0.0">
+  <name>Display</name>
+  <macros>
+    <P>MDAS:</P>
+    <R>PLCTST:</R>
+  </macros>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>Schneider PLC Modbus Demo</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>550</width>
+    <height>31</height>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Digital Outputs</name>
+    <x>2</x>
+    <y>52</y>
+    <width>666</width>
+    <height>174</height>
+    <transparent>true</transparent>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button</name>
+      <pv_name>$(P)$(R)DO0-Cmd</pv_name>
+      <y>31</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_1</name>
+      <pv_name>$(P)$(R)DO1-Cmd</pv_name>
+      <x>80</x>
+      <y>31</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_2</name>
+      <pv_name>$(P)$(R)DO2-Cmd</pv_name>
+      <x>160</x>
+      <y>31</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_3</name>
+      <pv_name>$(P)$(R)DO3-Cmd</pv_name>
+      <x>240</x>
+      <y>31</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_4</name>
+      <pv_name>$(P)$(R)DO4-Cmd</pv_name>
+      <x>320</x>
+      <y>31</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_5</name>
+      <pv_name>$(P)$(R)DO5-Cmd</pv_name>
+      <x>400</x>
+      <y>31</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_6</name>
+      <pv_name>$(P)$(R)DO6-Cmd</pv_name>
+      <x>480</x>
+      <y>31</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_7</name>
+      <pv_name>$(P)$(R)DO7-Cmd</pv_name>
+      <x>560</x>
+      <y>31</y>
+      <width>70</width>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_1</name>
+      <text>DO0</text>
+      <x>20</x>
+      <y>7</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_2</name>
+      <text>DO1</text>
+      <x>100</x>
+      <y>7</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_3</name>
+      <text>DO2</text>
+      <x>180</x>
+      <y>7</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_4</name>
+      <text>DO3</text>
+      <x>260</x>
+      <y>7</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_5</name>
+      <text>DO4</text>
+      <x>340</x>
+      <y>7</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_6</name>
+      <text>DO5</text>
+      <x>420</x>
+      <y>7</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_7</name>
+      <text>DO6</text>
+      <x>500</x>
+      <y>7</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_8</name>
+      <text>DO7</text>
+      <x>580</x>
+      <y>7</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_8</name>
+      <pv_name>$(P)$(R)DO8-Cmd</pv_name>
+      <y>108</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_9</name>
+      <pv_name>$(P)$(R)DO9-Cmd</pv_name>
+      <x>80</x>
+      <y>108</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_10</name>
+      <pv_name>$(P)$(R)DO10-Cmd</pv_name>
+      <x>160</x>
+      <y>108</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_11</name>
+      <pv_name>$(P)$(R)DO11-Cmd</pv_name>
+      <x>240</x>
+      <y>108</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_12</name>
+      <pv_name>$(P)$(R)DO12-Cmd</pv_name>
+      <x>320</x>
+      <y>108</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_13</name>
+      <pv_name>$(P)$(R)DO13-Cmd</pv_name>
+      <x>400</x>
+      <y>108</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_14</name>
+      <pv_name>$(P)$(R)DO14-Cmd</pv_name>
+      <x>480</x>
+      <y>108</y>
+      <width>70</width>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_15</name>
+      <pv_name>$(P)$(R)DO15-Cmd</pv_name>
+      <x>560</x>
+      <y>108</y>
+      <width>70</width>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_9</name>
+      <text>DO8</text>
+      <x>20</x>
+      <y>84</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_10</name>
+      <text>DO9</text>
+      <x>100</x>
+      <y>84</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_11</name>
+      <text>DO10</text>
+      <x>180</x>
+      <y>84</y>
+      <width>37</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_12</name>
+      <text>DO11</text>
+      <x>260</x>
+      <y>84</y>
+      <width>37</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_13</name>
+      <text>DO12</text>
+      <x>340</x>
+      <y>84</y>
+      <width>37</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_14</name>
+      <text>DO13</text>
+      <x>420</x>
+      <y>84</y>
+      <width>37</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_15</name>
+      <text>DO14</text>
+      <x>500</x>
+      <y>84</y>
+      <width>37</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_16</name>
+      <text>DO15</text>
+      <x>580</x>
+      <y>84</y>
+      <width>37</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Digital Inputs</name>
+    <x>2</x>
+    <y>238</y>
+    <width>666</width>
+    <height>174</height>
+    <transparent>true</transparent>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_16</name>
+      <pv_name>$(P)$(R)DI0-Sts</pv_name>
+      <bit>0</bit>
+      <y>31</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_17</name>
+      <pv_name>$(P)$(R)DI1-Sts</pv_name>
+      <bit>0</bit>
+      <x>80</x>
+      <y>31</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_18</name>
+      <pv_name>$(P)$(R)DI2-Sts</pv_name>
+      <bit>0</bit>
+      <x>160</x>
+      <y>31</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_19</name>
+      <pv_name>$(P)$(R)DI3-Sts</pv_name>
+      <bit>0</bit>
+      <x>240</x>
+      <y>31</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_20</name>
+      <pv_name>$(P)$(R)DI4-Sts</pv_name>
+      <bit>0</bit>
+      <x>320</x>
+      <y>31</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_21</name>
+      <pv_name>$(P)$(R)DI5-Sts</pv_name>
+      <bit>0</bit>
+      <x>400</x>
+      <y>31</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_22</name>
+      <pv_name>$(P)$(R)DI6-Sts</pv_name>
+      <bit>0</bit>
+      <x>480</x>
+      <y>31</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_23</name>
+      <pv_name>$(P)$(R)DI7-Sts</pv_name>
+      <bit>0</bit>
+      <x>560</x>
+      <y>31</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_17</name>
+      <text>DI0</text>
+      <x>20</x>
+      <y>7</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_18</name>
+      <text>DI1</text>
+      <x>100</x>
+      <y>7</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_19</name>
+      <text>DI2</text>
+      <x>180</x>
+      <y>7</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_20</name>
+      <text>DI3</text>
+      <x>260</x>
+      <y>7</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_21</name>
+      <text>DI4</text>
+      <x>340</x>
+      <y>7</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_22</name>
+      <text>DI5</text>
+      <x>420</x>
+      <y>7</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_23</name>
+      <text>DI6</text>
+      <x>500</x>
+      <y>7</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_24</name>
+      <text>DI7</text>
+      <x>580</x>
+      <y>7</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_24</name>
+      <pv_name>$(P)$(R)DI8-Sts</pv_name>
+      <bit>0</bit>
+      <y>108</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_25</name>
+      <pv_name>$(P)$(R)DI9-Sts</pv_name>
+      <bit>0</bit>
+      <x>80</x>
+      <y>108</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_26</name>
+      <pv_name>$(P)$(R)DI10-Sts</pv_name>
+      <bit>0</bit>
+      <x>160</x>
+      <y>108</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_27</name>
+      <pv_name>$(P)$(R)DI11-Sts</pv_name>
+      <bit>0</bit>
+      <x>240</x>
+      <y>108</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_28</name>
+      <pv_name>$(P)$(R)DI12-Sts</pv_name>
+      <bit>0</bit>
+      <x>320</x>
+      <y>108</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_29</name>
+      <pv_name>$(P)$(R)DI13-Sts</pv_name>
+      <bit>0</bit>
+      <x>400</x>
+      <y>108</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_30</name>
+      <pv_name>$(P)$(R)DI14-Sts</pv_name>
+      <bit>0</bit>
+      <x>480</x>
+      <y>108</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>Boolean Button_31</name>
+      <pv_name>$(P)$(R)DI15-Sts</pv_name>
+      <bit>0</bit>
+      <x>560</x>
+      <y>108</y>
+      <width>70</width>
+      <height>30</height>
+      <off_label>Off</off_label>
+      <on_label>On</on_label>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+      <square>true</square>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_25</name>
+      <text>DI8</text>
+      <x>20</x>
+      <y>84</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_26</name>
+      <text>DI9</text>
+      <x>100</x>
+      <y>84</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_27</name>
+      <text>DI10</text>
+      <x>180</x>
+      <y>84</y>
+      <width>30</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_28</name>
+      <text>DI11</text>
+      <x>260</x>
+      <y>84</y>
+      <width>30</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_29</name>
+      <text>DI12</text>
+      <x>340</x>
+      <y>84</y>
+      <width>30</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_30</name>
+      <text>DI13</text>
+      <x>420</x>
+      <y>84</y>
+      <width>30</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_31</name>
+      <text>DI14</text>
+      <x>500</x>
+      <y>84</y>
+      <width>30</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_32</name>
+      <text>DI15</text>
+      <x>580</x>
+      <y>84</y>
+      <width>30</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Analog Input</name>
+    <x>2</x>
+    <y>428</y>
+    <width>666</width>
+    <height>161</height>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update</name>
+      <pv_name>$(P)$(R)Ain0-Sts</pv_name>
+      <y>27</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_33</name>
+      <text>AI0</text>
+      <x>20</x>
+      <y>4</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_1</name>
+      <pv_name>$(P)$(R)Ain1-Sts</pv_name>
+      <x>80</x>
+      <y>27</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_34</name>
+      <text>AI1</text>
+      <x>100</x>
+      <y>4</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_2</name>
+      <pv_name>$(P)$(R)Ain2-Sts</pv_name>
+      <x>160</x>
+      <y>27</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_35</name>
+      <text>AI2</text>
+      <x>180</x>
+      <y>4</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_3</name>
+      <pv_name>$(P)$(R)Ain3-Sts</pv_name>
+      <x>240</x>
+      <y>27</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_36</name>
+      <text>AI3</text>
+      <x>260</x>
+      <y>4</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_4</name>
+      <pv_name>$(P)$(R)Ain4-Sts</pv_name>
+      <x>320</x>
+      <y>27</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_37</name>
+      <text>AI4</text>
+      <x>340</x>
+      <y>4</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_5</name>
+      <pv_name>$(P)$(R)Ain5-Sts</pv_name>
+      <x>400</x>
+      <y>27</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_38</name>
+      <text>AI5</text>
+      <x>420</x>
+      <y>4</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_6</name>
+      <pv_name>$(P)$(R)Ain6-Sts</pv_name>
+      <x>480</x>
+      <y>27</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_39</name>
+      <text>AI6</text>
+      <x>500</x>
+      <y>4</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_7</name>
+      <pv_name>$(P)$(R)Ain7-Sts</pv_name>
+      <x>560</x>
+      <y>27</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_40</name>
+      <text>AI7</text>
+      <x>580</x>
+      <y>4</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_8</name>
+      <pv_name>$(P)$(R)Ain8-Sts</pv_name>
+      <y>95</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_41</name>
+      <text>AI8</text>
+      <x>20</x>
+      <y>72</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_9</name>
+      <pv_name>$(P)$(R)Ain9-Sts</pv_name>
+      <x>80</x>
+      <y>95</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_42</name>
+      <text>AI9</text>
+      <x>100</x>
+      <y>72</y>
+      <width>22</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_10</name>
+      <pv_name>$(P)$(R)Ain10-Sts</pv_name>
+      <x>160</x>
+      <y>95</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_43</name>
+      <text>AI10</text>
+      <x>180</x>
+      <y>72</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_11</name>
+      <pv_name>$(P)$(R)Ain11-Sts</pv_name>
+      <x>240</x>
+      <y>95</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_44</name>
+      <text>AI11</text>
+      <x>260</x>
+      <y>72</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_12</name>
+      <pv_name>$(P)$(R)Ain12-Sts</pv_name>
+      <x>320</x>
+      <y>95</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_45</name>
+      <text>AI12</text>
+      <x>340</x>
+      <y>72</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_13</name>
+      <pv_name>$(P)$(R)Ain13-Sts</pv_name>
+      <x>400</x>
+      <y>95</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_46</name>
+      <text>AI13</text>
+      <x>420</x>
+      <y>72</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_14</name>
+      <pv_name>$(P)$(R)Ain14-Sts</pv_name>
+      <x>480</x>
+      <y>95</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_47</name>
+      <text>AI14</text>
+      <x>500</x>
+      <y>72</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_15</name>
+      <pv_name>$(P)$(R)Ain15-Sts</pv_name>
+      <x>560</x>
+      <y>95</y>
+      <width>70</width>
+      <height>30</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_48</name>
+      <text>AI15</text>
+      <x>580</x>
+      <y>72</y>
+      <width>29</width>
+      <height>16</height>
+      <auto_size>true</auto_size>
+    </widget>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>osprey-logo.png</file>
+    <x>599</x>
+    <y>5</y>
+    <width>66</width>
+    <height>52</height>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>$(P)$(R)Comm-Sts</pv_name>
+    <x>369</x>
+    <y>31</y>
+    <width>99</width>
+    <off_label>Disconnected</off_label>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>Connected</on_label>
+    <square>true</square>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_49</name>
+    <text>Status:</text>
+    <x>317</x>
+    <y>31</y>
+    <width>44</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+</display>

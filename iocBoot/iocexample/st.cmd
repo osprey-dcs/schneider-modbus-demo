@@ -1,6 +1,6 @@
 #!../../bin/linux-x86_64/mbus
 
-epicsEnvSet("DEVICE_ADDR", "192.168.79.45:502")
+epicsEnvSet("DEVICE_ADDR", "192.168.83.94:502")
 epicsEnvSet("DEVICE_POLL", "250") # polling interval (ms)
 epicsEnvSet("DEVICE_TIMEOUT", "500") # ms
 
